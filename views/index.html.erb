@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>HTML file</title>
+</head>
+<body>
+<h1>This is an HTML file</h1>
+<p>Coding is fun</p>
+<ul>
+	  <% @students.each do |student| %> 
+	  <li>
+	  Name: <%= student.name %>
+	  	Email: <%= student.email %>
+	  </li>
+	  <% end %> 
+
+	  <a href="/new">new student</a>
+</body>
+</html>
